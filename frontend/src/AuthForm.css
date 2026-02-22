@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  caret-color: black;
+}
+
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+}
+
+.auth-container {
+  display: flex;
+  /* gap: 40px; */
+}
+
+.card {
+  width: 100%;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.active-container {
+  width: 500px;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.active-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.active-tabs button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: white;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  border: 0.2px solid rgb(126, 124, 124);
+  color: black;
+}
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #f0f0f0;
+  transition: 0.3s;
+  color: black;
+
+  border: 0.2px solid rgb(126, 124, 124);
+}
+
+.tabs button.active {
+  background: #0072ff;
+  color: white;
+}
+.active-tabs button.active {
+  background: #0072ff;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  /* transition: 0.3s; */
+  background-color: white;
+  caret-color: black;
+  border: 0.2px solid rgb(126, 124, 124);
+  color: black;
+  font-weight: 100;
+  cursor: default;
+}
+
+.form input:focus {
+  border-color: #0072ff;
+}
+
+.primary-btn {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #0072ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #005edb;
+}
+
+.secondary-btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #00c6ff;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background: #005edb;
+}
